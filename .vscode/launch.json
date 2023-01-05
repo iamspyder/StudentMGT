@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Demo",
+            "server": "https://businesscentral.dynamics.com/bd2ac605-0345-4baf-ad17-20a2ae35dcb5/Demo",
+            "tenant": "bd2ac605-0345-4baf-ad17-20a2ae35dcb5",
+            "startupObjectId": 50147,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
